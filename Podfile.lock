@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (3.4.1)
+  - Boilerplate (0.2.4):
+    - Result (~> 2.0)
+  - CrossroadRegex (0.8.0):
+    - Boilerplate (~> 0.2)
+  - DTCoreText (1.6.17):
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTFoundation/Core (1.7.10)
+  - DTFoundation/DTAnimatedGIF (1.7.10)
+  - DTFoundation/DTHTMLParser (1.7.10):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.10):
+    - DTFoundation/Core
+  - Kanna (1.1.0)
+  - MBProgressHUD (1.0.0)
+  - Moya (7.0.0):
+    - Moya/Core (= 7.0.0)
+  - Moya/Core (7.0.0):
+    - Alamofire (~> 3.0)
+    - Result (~> 2.0)
+  - Moya/RxSwift (7.0.0):
+    - Moya/Core
+    - RxSwift (~> 2.0)
+  - Result (2.1.3)
+  - RxSwift (2.6.0)
+  - SnapKit (0.15.0)
+
+DEPENDENCIES:
+  - CrossroadRegex
+  - DTCoreText
+  - Kanna (~> 1.1.0)
+  - MBProgressHUD (~> 1.0.0)
+  - Moya (~> 7.0.0)
+  - Moya/RxSwift
+  - SnapKit (~> 0.15.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  Boilerplate: cc76b26f60747f7b75f43b8ac38d2071cfb0e75a
+  CrossroadRegex: f1ab8cb19a65c1db9a2ed809e8f71b49a40aa8cb
+  DTCoreText: 3ea8bba23dd2141ba18adb227a7dd33a822df1c4
+  DTFoundation: 3b6b1b817d2a7fb02e7eaf2596c922a68145bd43
+  Kanna: 355ed0193e5d8caf4fd996856b5bc98d586c11b6
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Moya: f004b82418fb8165ee1fc9f86190db4b3611fda9
+  Result: 18e1a7597fbcca5923c565b40a25a98afafdee02
+  RxSwift: 77f3a0b15324baa7a1c9bfa9f199648a82424e26
+  SnapKit: 4962eed2ee18e48cbd2b2292fffc57efe7235f87
+
+PODFILE CHECKSUM: 71552f00d89fc924b6f8d654a6940cbaaeb94ce3
+
+COCOAPODS: 1.0.1
