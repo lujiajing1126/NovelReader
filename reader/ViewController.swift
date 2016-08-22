@@ -90,6 +90,7 @@ class ViewController: UIViewController,DTAttributedTextContentViewDelegate {
                     options = [NSTextSizeMultiplierDocumentOption: NSNumber(float: 1.5),DTDefaultFontFamily: "HYXinRenWenSongW",DTDefaultStyleSheet: self.css]
                     let attrStr = NSAttributedString(HTMLData: wrappedContent!,options: options,documentAttributes:nil)
                     self.textview.attributedString = attrStr
+                    self.textview.setContentOffset(CGPointMake(0, 0), animated: true)
                 }
             case let .Failure(error):
                 print("\(error)")
